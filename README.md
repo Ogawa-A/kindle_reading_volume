@@ -1,0 +1,2 @@
+# kindle_reading_volume
+kindleの読書数を毎月Tiwtterに吐き出すことが目標
