@@ -1,2 +1,3 @@
 # kindle_reading_volume
-kindleの読書数を毎月Tiwtterに吐き出すことが目標
+・Amazonのスクレイピングは禁止されているため、PC版のKindleアプリのキャッシュからその月に購入した冊数を取得+Tweet
+・キャッシュを更新するためのバッチファイルはWindowsのタスクマネージャーで起動設定
