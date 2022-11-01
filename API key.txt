@@ -1,0 +1,25 @@
+API key
+TS7sKC7y7dg9zf4yfyidAAp8c
+
+API key Secret
+eGg5x5tUyPIUrcxsQ89hKL9ILoUZIhEd16P05li0ZuXf4BHqjk
+
+bearer token
+AAAAAAAAAAAAAAAAAAAAAFY7XwEAAAAAArWuYtAB7ZLCtKO1HZks4kjhWzI%3DdN0k2e4jb9lx7udEeobNdr58ZZ06IgPJWZYlJYAC4Wm4bvLj1a
+
+Client id
+cUJTTldseXBkOHZyT2lQTFlQOG46MTpjaQ
+
+Client Secret
+7tU_q3SFgsSVhSmQEfpICzK2Dg31Qpy1EUewtVSeBstSQUhxHv
+
+access token
+171138150-z7yo4Wuk1orQu1cfAp3sXn47MTAdUPK3a12o6OPX
+
+access token Secret
+7PMOg1D6ZKmdr6OGnMSV4BT0xFadLSBEAKCqrwiJsyW4t
+
+https://api.twitter.com/oauth/authorize?oauth_token=ZQ430wAAAAABXztWAAABfi834WQ
+
+
+https://twitter.com/home?oauth_token=ZQ430wAAAAABXztWAAABfi834WQ&oauth_verifier=5dgRw6ZgHJyE2qkOkp3wwT28L64Ku5Jk

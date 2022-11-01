@@ -7,6 +7,10 @@ for %%i in (%filename%) do set "update_date=%%~ti"
 
 start %appPath%
 
+timeout /t 180 /nobreak
+taskkill /F /T /IM "Kindle.exe"
+timeout /t 10 /nobreak
+
 :chech_xml
 for %%i in (%filename%) do set "new_update_date=%%~ti"
 if "%update_date%" == "%new_update_date%" (
@@ -14,9 +18,8 @@ if "%update_date%" == "%new_update_date%" (
   ) else (
     :check_start_app
     tasklist | find "Kindle.exe" > NUL
-    if %ERRORLEVEL% == 0 (
+    if %ERRORLEVEL% == 1 (
       python F:\git\kindle_reading_volume\tweet.py
-      taskkill /F /T /IM "Kindle.exe"
       pause
     ) else (
       goto :check_start_app
